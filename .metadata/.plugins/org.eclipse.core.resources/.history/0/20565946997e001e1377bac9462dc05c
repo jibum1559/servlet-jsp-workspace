@@ -1,0 +1,27 @@
+package com.kh.product;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/ProductServlet")
+public class ProductServlet extends HttpServlet {
+	private static final String jdbcURL = "jdbc:oracle:thin:@localhost:1521:xe";
+	private static final String jdbcUsername = "khcafe";
+	private static final String jdbcPassword = "khcafe";
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		//데이터베이스 연결
+		//Class.forName("oracle.jdbc.driver.OracleDriver");
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

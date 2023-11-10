@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import = "com.kh.product.Product" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>제품목록</title>
+</head>
+<body>
+	<h1>제품목록</h1>
+	<ul>
+		<%
+			//제품 목록을 ArrayList에 저장
+			ArrayList<Product> products = new ArrayList<>();
+		%>
+	</ul>
+</body>
+</html>

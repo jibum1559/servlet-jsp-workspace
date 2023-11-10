@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>이미지 업로드</title>
+</head>
+<body>
+	<h1>이미지 업로드</h1>
+	
+	<form>
+		<label for="title">제목</label>
+		<input type="text" name="title" id="title" required><br>
+		<label for="content">내용</label>
+		<input type="text" name="content" id="content" required><br>
+		
+		<label>이미지 :</label>
+		<input type="file" name="image" id="image" required><br>
+		
+		<button type="submit">업로드</button>
+		
+		
+	</form>
+</body>
+</html>
