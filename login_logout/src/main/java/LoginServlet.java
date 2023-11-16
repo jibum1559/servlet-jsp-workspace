@@ -16,8 +16,8 @@ import javax.servlet.http.HttpSession;
 public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String jdbcURL = "jdbc:oracle:thin:@localhost:1521:xe";
-		String jdbcUsername = "khmember";
-		String jdbcPassword = "kh1234";
+		String jdbcUsername = "khcafe";
+		String jdbcPassword = "khcafe";
 		
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");

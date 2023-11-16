@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Product_List">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <property name="context-root" value="Product_List"/>
-        <property name="java-output-path" value="/Product_List/build/classes"/>
-    </wb-module>
-</project-modules>
